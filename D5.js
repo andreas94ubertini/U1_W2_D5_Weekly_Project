@@ -117,3 +117,25 @@ while (numericArray[counter] !== 32) {
 */
 const charactersArray = ["g", "n", "u", "z", "d"]
 const newCharArray = []
+for (let i = 0; i < charactersArray.length; i++) {
+  switch (true) {
+    case charactersArray[i] === "d":
+      newCharArray.push(4)
+      break
+    case charactersArray[i] === "z":
+      newCharArray.push(21)
+      break
+    case charactersArray[i] === "u":
+      newCharArray.push(19)
+      break
+    case charactersArray[i] === "n":
+      newCharArray.push(12)
+      break
+    case charactersArray[i] === "g":
+      newCharArray.push(7)
+      break
+    default:
+      console.log("La lettera non corrisponde a nessuna dell'alfabeto italiano")
+  }
+}
+console.log(newCharArray)
