@@ -1,0 +1,176 @@
+/* General style */
+@font-face {
+  font-family: myFirstFont;
+  font-weight: bold;
+  src: url(/assets/font/AmazonEmber_Bd.ttf);
+}
+@font-face {
+  font-family: myFirstFont;
+  font-weight: normal;
+  src: url(/assets/font/AmazonEmber_Rg.ttf);
+}
+body {
+  background-color: rgb(233, 237, 238);
+  width: 60%;
+  margin: 0 auto;
+  font-family: myFirstFont;
+  font-weight: normal;
+}
+h2 {
+  font-size: 1.8rem;
+}
+/* Header style */
+.logo-container {
+  background-color: rgb(34, 47, 63);
+  padding: 0.5%;
+  width: 100%;
+  margin: 0 auto;
+}
+.logo-container img {
+  width: 10rem;
+}
+nav {
+  background-color: rgb(54, 71, 89);
+  margin: 0 auto;
+  padding: 0.5%;
+  width: 100%;
+}
+ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  margin: 0.1%;
+}
+nav ul li {
+  margin-left: 1%;
+  padding: 0.1%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.orange {
+  background-color: rgb(245, 102, 0);
+  text-align: center;
+  padding: 0.5%;
+  margin: 1% auto;
+  color: white;
+  width: 100%;
+}
+.holyday-bg {
+  background-image: url(/assets/bg-image.png);
+  width: 100%;
+  height: 9.5rem;
+  padding: 0.5%;
+  margin: 1% auto;
+  text-align: center;
+}
+.holyday-bg h2 {
+  margin-top: 2rem;
+  color: white;
+  font-weight: bold;
+  color: white;
+}
+.holyday-bg h3 {
+  color: white;
+  margin-top: 1%;
+}
+main {
+  width: 100%;
+}
+.tile-container {
+  /* display: flex; */
+  padding: 0.5%;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  /* justify-content: center; */
+}
+
+.tile {
+  width: 14rem;
+  height: 17rem;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  padding: 1%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-top: 0.6%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.shop-now {
+  text-align: left;
+  padding: 0.8%;
+  margin-left: 0.5%;
+}
+.link a {
+  color: rgb(18, 88, 102);
+  font-weight: bold;
+  margin-left: 1%;
+}
+.first {
+  background-image: url(/assets/img_1.jpg);
+}
+.second {
+  background-image: url(/assets/img_2.jpg);
+}
+.third {
+  background-image: url(/assets/img_3.jpg);
+}
+.fourth {
+  background-image: url(/assets/img_4.jpg);
+}
+.mid-container,
+.bottom-container {
+  text-align: center;
+  width: 100%;
+  margin-top: 2%;
+}
+main p {
+  margin-top: 0.5%;
+}
+.img-container1 {
+  background-image: url(/assets/img_9.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 19rem;
+  padding: 0.5%;
+}
+.img-container2 {
+  background-image: url(/assets/img_10.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 19rem;
+  padding: 0.5%;
+}
+/* Footer Style */
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 2%;
+}
+.footer-blu {
+  background-color: rgb(54, 71, 89);
+  padding: 0.5%;
+  width: 100%;
+}
+.footer-blu a {
+  text-decoration: underline;
+}
+.footer-logo {
+  background-color: rgb(34, 47, 63);
+  width: 100%;
+  padding: 0.5%;
+}
+.footer-logo img {
+  width: 10%;
+  margin: 3% auto;
+}
